@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body
+{
+
+width:60%;
+margin-left:250px;
+
+color:white;
+font-size:120%;
+
+background-image: url("BGibb.jpg");
+
+}
+
+
+.header
+{
+background-image: url("SDisb.jpg");
+}
+
+.mainform 
+{
+opacity:0.9;
+font-size:150%;
+    border-radius: 5px;
+    background-color:#00BFFF;
+    padding: 20px;
+}
+
+
+/* calling name in DIFFERENT STYLE */
+
+
+
+input[type=submit] 
+{
+    width: 45%;
+    background-color:#4CAF50;
+    color: white;
+    padding: 14px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/*color change when ARROW come on it*/
+input[type=submit]:hover
+{
+    background-color:#2F4F4F;
+	font-size:100%;
+	color:white;
+}
+
+
+
+
+a 
+
+{
+
+
+background-color:blue;
+   text-decoration:none;
+
+  border-style: double;
+  border-width: thick;
+
+padding:8px;
+padding-left:50px;
+padding-right:10px;
+border-radius: 6px;
+
+  font-size:120%;
+  color:white;
+}
+
+a:hover
+{
+
+background-image: url("SDr.jpg");
+   text-decoration:none;
+
+  border-style: double;
+  border-width: thick;
+
+padding:8px;
+padding-left:50px;
+padding-right:10px;
+border-radius: 6px;
+
+  font-size:140%;
+  color:white;
+}
+
+	
+	
+</style>
+
+
+<script type="text/javascript" >
+
+ 
+ window.alert("High Scurity ALERT :: Your Account will be BLOCKED if you type incorrect PASSWARD  ");
+
+ var name=prompt("Enter your Full name")
+ document.write("Hi! <br>"  +name+  ",Welcome to the Football club");
+ 
+ var a;
+ a=confirm("Are you the Student of LPU?");
+ if(a)
+ { document.write("<i>..Sorry..</i><b>Please SignUp First...the link is given below <b>  <br>");}
+else
+ {  document.write("<br>"); }
+
+</script>
+
+
+
+<body>
+
+<div class="header">
+     <h1 style="font-size:300%;text-align:center;">LOGIN</h1>
+</div>
+
+<div class="mainform" >
+ 
+ <form>
+
+
+
+
+
+	<b>UsER iD OF PLAYer </b>
+<input type="text" naME="userId" id="AMIT" value="amit@gmail.com" placeholder="USerID @@of@@ perSON "
+           size="50" maxlength="7">
+<br>
+<br>
+ <b>PASSword </b>
+ <input type="password" naME="pas" id="AMIT" value="10001" placeholder="passWORDss" 
+           size="50" maxlength="5"> 
+  
+
+	
+
+
+
+	<br>
+	<br>
+	
+	<b>Choose Your Club </b>
+    <select id="clubs" name="clubs">
+	 <option value="a">Real Madrid Spain   </option>
+	 <option value="b">Chelsea  england </option>
+      <option value="c">Chelsea  england </option>
+      <option value="d">Juventus  Italy</option>
+      <option value="e">Barcelona Spain</option>
+    </select>
+	<br>
+	<br>
+    
+    <br>
+    <input type="submit" value="LOGIN"> <input type="submit" value="FORGET PASSWARD">
+  <br>
+<br>
+
+<br>
+
+
+	<a href="AAform002.html">Sign Up</a>
+
+	<a href="AAhome001.html"> RETURN to Home</a>	
+
+ </form>
+</div>
+
+</body>
+</html>

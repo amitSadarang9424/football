@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+background-image:url("BGa.jpg")
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+a 
+
+{
+opacity:0.95;
+
+
+background-color:white
+   text-decoration:none;
+
+  border-style: double;
+  border-width: thick;
+
+padding:8px;
+padding-left:550px;
+padding-right:560px;
+
+  font-size:110%;
+  color:white;
+}
+
+a:hover
+{
+opacity:0.95;
+
+
+background-color:red;
+   text-decoration:none;
+
+  border-style: double;
+  border-width: thick;
+
+padding:8px;
+padding-left:550px;
+padding-right:560px;
+
+  font-size:120%;
+  color:white;
+}
+
+
+
+.a1
+{
+display: inline-block;
+
+opacity:0.9;
+
+background-color:white;
+width:390px;
+height:500px;
+padding:10px;
+
+
+
+    border-style: double;
+    border-width: thick;
+
+font-family:"Segoe UI";
+border:2px solid #112645;
+font-size:20px;
+color:black;
+}
+
+.b1
+{
+display: inline-block;
+
+opacity:0.85;
+
+background-color:white;
+width:400px;
+height:540px;
+margin-top:10px;
+margin-bottom:10px;
+    border-style: double;
+    border-width: thick;
+font-family:"Segoe UI";
+border:2px solid #112645;
+font-size:25px;
+color:black;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<h1 style="color:red;text-align:center;font-size:270%;">FootBALL Gallery</h1>
+
+   	 <marquee behavior="scroll" direction="left">
+	 <a href="AArank044.html" style="background-color:none;background-image:none;border:none;"> <image src="ranks c.png" height="200" width="1000"></a>
+  <a href="AArank044.html" style="background-color:none;background-image:none;border:none;"> <image src="clubrank.png" height="200" width="700"></a>
+  <a href="AArank044.html" style="background-color:none;background-image:none;border:none;"> <image src="playerf.png" height="200" width="700"></a>
+  <a href="AArank044.html" style="background-color:none;background-image:none;border:none;"> <image src="ranks c.png" height="200" width="1000"></a>
+ <a href="AArank044.html" style="background-color:none;background-image:none;border:none;"> <image src="playerf.png" height="200" width="700"></a>
+ <a href="AArank044.html" style="background-color:none;background-image:none;border:none;"> <image src="ranks c.png" height="200" width="1000"></a>
+ <a href="AArank044.html" style="background-color:none;background-image:none;border:none;"> <image src="clubrank.png" height="200" width="700"></a>
+ <a href="AArank044.html" style="background-color:none;background-image:none;border:none;"> <image src="ranks c.png" height="200" width="1000"></a>
+ <a href="AArank044.html" style="background-color:none;background-image:none;border:none;"> <image src="playerf.png" height="200" width="700"></a>
+ <a href="AArank044.html" style="background-color:none;background-image:none;border:none;"> <image src="ranks c.png" height="200" width="1000"></a>
+ <a href="AArank044.html" style="background-color:none;background-image:none;border:none;"> <image src="clubrank.png" height="200" width="700"></a>
+ <a href="AArank044.html" style="background-color:none;background-image:none;border:none;"> <image src="ranks c.png" height="200" width="1000"></a>  
+	 </marquee>
+
+<h3 style="color:red;text-align:center;">Waka Waka (This Time for Africa)", called "Waka Waka (Esto es África)" in Spanish, is a song by Colombian singer-songwriter Shakira,<h3>
+	 
+<div class="a1" >
+<marquee behavior="scroll" direction="up">
+	 <image src="playerrank.png" height="400" width="400"></th>
+	  </marquee>
+</div>
+
+<div class="a1" >
+<marquee behavior="scroll" direction="down">
+	 <image src="CSat.jpg" height="400" width="400"></th>
+	  </marquee>
+	  
+</div>
+
+
+
+<div class="a1" >
+<marquee behavior="scroll" direction="up">
+	 <image src="topp.jpg" height="400" width="400"></th>
+	  </marquee>
+</div>
+<br>
+
+<div class="b1" >
+<p>
+
+      This is Latest Video uploaded 
+    </p>
+    <video width="400" controls muted autoplay >
+    <source src="Historyfootball.mp4" type="video/mp4">
+     </video>
+<marquee behavior="scroll" direction="up">
+    <br>
+    Compitetion of Free style...<br>is coming soon in this month.....<br>registration for player is open from next 8 days...<br>Booking for the seat is also start for audiance....<br>
+	  </marquee>
+</div>
+
+
+
+<div class="b1" >
+<p>
+      LIVE Performance Test Trainnig for SoCCer
+    </p>
+    <video width="400" controls muted autoplay >
+    <source src="Tvideo.mp4" type="video/mp4">
+     </video>
+<marquee behavior="scroll" direction="up">
+    <br>
+   Ronaldo Performance Test...<br>Checking Speed.....<br>Strenght TEST of player is next 8 days...<br>Testing his technique....<br>
+	  </marquee>
+</div>
+
+
+<div class="b1" >
+<p>
+      LATEST UPCOMING EVENT 
+    </p>
+    <video width="400" controls muted autoplay >
+    <source src="event.mp4" type="video/mp4">
+     </video>
+<marquee behavior="scroll" direction="up">
+    <br>
+    Compitetion of Free style...<br>is coming soon in this month.....<br>registration for player is open from next 8 days...<br>Booking for the seat is also start for audiance....<br>
+	  </marquee>
+</div>
+	
+	 
+<div class="a1" >
+<marquee behavior="scroll" direction="up">
+	 <image src="playerrankb.png" height="400" width="400"></th>
+	  </marquee>
+</div>
+
+<div class="a1" >
+<marquee behavior="scroll" direction="down">
+	 <image src="CSad.jpg" height="400" width="400"></th>
+	  </marquee>
+</div>
+
+<div class="a1" >
+<marquee behavior="scroll" direction="up">
+	 <image src="hha.jpg" height="400" width="400"></th>
+	  </marquee>
+</div>
+
+
+<br>
+<br>
+<div class="last">
+<a href="AAhome001.html">Go to Home</a>...<h2>
+</div>
+
+	
+	
+
+
+
+</body>
+</html>

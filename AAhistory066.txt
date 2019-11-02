@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+<title> Baking page   </title>
+
+<style>
+
+body {
+
+    background-image: url("SDib.jpg");
+}
+
+img {
+
+    border-radius: 18px;
+}/*for all image*/
+
+ .header
+ {
+ color:white;
+ }
+.option
+{
+ }
+
+ 
+div.outboxrelative
+{
+text-align:center;
+font-family:"Segoe UI";
+color:white;
+    position: relative;
+    width: 1200px;
+    height: 1500px;
+    border: 3px solid #ffffff;
+} 
+
+
+ 
+.op
+{
+position: fixed;
+    bottom: 80;
+    right: 80;
+} 
+ 
+ 
+.a1
+{
+display: inline-block;
+
+
+width:350px;
+height:500px;
+padding:10px;
+margin:10px;
+margin-top:50px;
+
+    border-style: double;
+    border-width: thick;
+
+font-family:"Segoe UI";
+border:2px solid #112645;
+font-size:20px;
+color:black;
+background-image: url("SDr.jpg");
+
+
+}
+
+.f1
+{
+
+
+font-family:"Segoe UI";
+border:2px solid #112645;
+font-size:20px;
+color:white;
+background-color:none;
+}
+
+
+video {
+opacity:0.80;
+    width:100%;
+    height:auto%;
+}
+
+
+a 
+
+{
+opacity:0.95;
+
+
+background-color:white
+   text-decoration:none;
+
+  border-style: double;
+  border-width: thick;
+
+padding:8px;
+padding-left:550px;
+padding-right:560px;
+
+  font-size:100%;
+  color:white;
+}
+
+
+
+</style>
+ 
+</head>
+
+
+<body>
+
+
+<div class="header">
+     <h1 style="background-color:black;font-size:300%;text-align:center;">FOOTBALL History</h1>
+</div>
+
+
+<br>
+<br>
+<div class="outboxrelative">
+    <h2>About Football History </h2>
+    
+
+Originally founded in 1913 as the United States Football Association, U.S. Soccer was one of the world’s first organizations to be affiliated with FIFA, soccer’s world governing body, and has grown into one of the sport’s organizational leaders, integrating player participation and player development into arguably the world’s most successful top-to-bottom National Team program. 
+
+
+
+U.S. SOCCER FEDERATION – What’s in a name? 
+Throughout the 90-year history of U.S. Soccer, the organization has been known by three different names: 
+
+    U.S. Football Association - 1913-1944 
+    U.S. Soccer Football Association - 1945-1973
+    U.S. Soccer Federation - 1974-Current  
+	
+
+			<video width="1000" height="400" controls autoplay>  <source src="Historyfootball.mp4" type="video/mp4"></video>
+			     <h2>OFFICIAL video about FOOTBALL</h2>
+				 <br>
+				 As part of the evidence, U.S. Soccer’s National Team programs qualified for 19 consecutive FIFA outdoor world championships before the Under-23 national team missed out on the Olympics in 2004.   
+
+Part of that “framework” was unveiled in 2003 when U.S. Soccer’s National Training Center opened at the Home Depot Center in Carson, Calif. After 90 years of nurturing player participation and player development, U.S. Soccer’s player development initiatives finally have a home of their own in the $130 million facility, which includes a stadium for Major League Soccer’s LA Galaxy and Chivas USA.
+<br>                
+         According to FIFA, the Chinese competitive game cuju ( literally "kick ball") is the earliest form of football for which there is scientific evidence. Cuju players could use any part of the body apart from hands and the intent was kicking a ball through an opening into a net. It was remarkably similar to modern football, though similarities to rugby occurred.During the Han Dynasty (206 BC – 220 AD), cuju games were standardised and rules were established.
+		 
+		 
+		 
+		 <br>
+		 <image src="hha.jpg" height="300" width="500">
+		 <image src="hhb.jpg" height="300" width="500">
+		 <br>
+		 
+		 The next step in the history of football in America was again made by schoolboys, this time schoolboys of Boston, who played a form of football on Boston Commons that included both running and kicking, that is, it was more like rugby than soccer. Not surprisingly, this hybrid version of American football became known as the "Boston Game." In 1862, they organized what was known as the Oneida Football Club, thought to be the first formal football club in the United States.
+
+The Boston kids got themselves some press coverage, so this hybrid version began getting traction. Still, when the college boys decided to give it another try in the late 1860's, they stayed primarily with the kicking game, and Rutgers vs Princeton (played November 6, 1869), although more soccer than American football, is usually considered to be the first game of intercollegiate football played in the United States.
+
+When the competitions became intercollegiate, each school continued to have its own rules, with the home team's rules applying for each game.
+
+When rules were first codified at a meeting in New York City's Fifth Avenue Hotel on October 20, 1873, the approach continued to more closely resemble soccer. But while Yale, columbia, Princeton, and Rutgers were on board with this kicking version, Harvard refused to join them, preferring to stay with the kick and carry Boston game. 
+			
+</div> 
+
+
+<br>
+<div class="last">
+<a href="AAhome001.html">Go to Home</a>...<h2>
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

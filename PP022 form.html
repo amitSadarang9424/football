@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body
+{
+
+width:50%;
+margin-left:250px;
+
+background-image: url("CSal.jpg");
+
+}
+
+
+a 
+
+{
+
+
+background-image: url("SDr.jpg");
+   text-decoration:none;
+
+  border-style: double;
+  border-width: thick;
+
+padding:8px;
+padding-left:50px;
+padding-right:10px;
+
+  font-size:140%;
+  color:white;
+}
+
+
+.header
+{
+background-image: url("SDisb.jpg");
+}
+
+.mainform 
+{
+opacity:0.9;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+/* calling name in DIFFERENT STYLE */
+
+
+input[type=submit] 
+{
+    width: 50%;
+    background-color:#4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/*color change when ARROW come on it*/
+input[type=submit]:hover
+{
+    background-color:orange;
+}
+
+
+
+
+
+</style>
+
+<body>
+
+<div class="header">
+     <h1 style="font-size:300%;text-align:center;">FORM</h1>
+</div>
+
+<div class="mainform" >
+ 
+ <form>
+
+
+
+  First Name
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."  maxlength="8">
+    <br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."  maxlength="8">
+  <br>
+	
+UsER iD OF PLAYer
+<input type="text" naME="userId" id="AMIT" value="007" placeholder="USerID @@of@@ perSON "
+           size="75" maxlength="7">
+<br>
+<br>
+PASSword
+ <input type="password" naME="pas" id="AMIT" value="10001" placeholder="passWORDss" 
+           size="60" maxlength="5"> 
+
+<br>
+<br>
+Any Competition winner:-
+<br>
+<input type="checkbox" name="SecTION" value="1" >District Level Champion<br>    
+<input type="checkbox" name="SecTION" value="2" checked >State Level Champion<br> 
+<input type="checkbox" name="SecTION" value="3" >National Level Champion<br> 
+<br>
+<br>
+GENDER:-
+<br>
+<input type="radio" name="gender" value="1" >Male<br> 
+<input type="radio" name="gender" value="2" >Female<br> 
+<br>
+	
+	
+	
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">INDIA</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+  <br>
+    <input type="submit" value="Submit">
+	
+	<a href="PP011 home page1.html"> done</a>
+	
+  </form>
+</div>
+
+</body>
+</html>

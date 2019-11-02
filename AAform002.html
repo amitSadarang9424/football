@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body
+{
+
+width:50%;
+margin-left:250px;
+
+font-size:100%;
+
+background-image: url("CSal.jpg");
+
+}
+
+
+.header
+{
+background-image: url("SDisb.jpg");
+color:white;
+}
+
+.mainform 
+{
+opacity:0.9;
+    border-radius: 5px;
+    background-color:white;
+    padding: 20px;
+}
+
+
+/* calling name in DIFFERENT STYLE */
+
+
+
+input[type=submit] 
+{
+    width: 50%;
+    background-color:#4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*text input design*/
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+
+/*color change when ARROW come on it*/
+input[type=submit]:hover
+{
+    background-color:orange;
+}
+
+a 
+
+{
+
+
+background-image:url("BGm.jpg");
+   text-decoration:none;
+
+  border-style: double;
+  border-width: thick;
+
+padding:8px;
+padding-left:50px;
+padding-right:10px;
+
+  font-size:140%;
+  color:white;
+}
+
+a:hover
+{
+
+background-image: url("SDr.jpg");
+   text-decoration:none;
+
+  border-style: double;
+  border-width: thick;
+
+padding:8px;
+padding-left:50px;
+padding-right:10px;
+border-radius: 6px;
+
+  font-size:140%;
+  color:white;
+}
+
+</style>
+
+
+<script type="text/javascript" >
+
+ 
+ window.alert("High Scurity ALERT!Your IP address is sent to Football Club Organistion  ");
+
+ var name=prompt("Enter your Full name")
+ document.write("Hi! SUPRISE!! <br>"  +name+  ",Welcome to the Football club ");
+ 
+ var a;
+ a=confirm("Are you the Student of LPU?");
+ if(a)
+ { document.write("<i>.REGISTRATION...</i><b>LPU will  provide you more information about this form  <b>  <br>");}
+else
+ {  document.write("<br>"); }
+
+</script>
+
+
+
+
+
+
+<body>
+
+<div class="header">
+<marquee behavior="scroll" direction="left" scrollamount="10">
+     <h1 style="font-size:300%;text-align:center;">REGISTRATION FORM</h1>
+	 </marquee>
+</div>
+
+<div class="mainform" >
+ 
+ <form>
+
+
+
+ <b> First Name</b>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."  maxlength="8">
+    <br>
+	<br>
+
+	<b>Last Name </b>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."  maxlength="8">
+  <br>
+	<br>
+
+	<b>Mobile No. </b>
+    <input type="text" id="num" name="num" placeholder="Your 10 DIGIT number.."  maxlength="10">
+		   
+		   
+<br>
+<br>
+	
+	<b>UsER iD OF PLAYer </b>
+<input type="text" naME="userId" id="AMIT" value="007" placeholder="USerID @@of@@ perSON "
+           size="50" maxlength="7">
+<br>
+<br>
+ <b>PASSword </b>
+ <input type="password" naME="pas" id="AMIT" value="10001" placeholder="passWORDss" 
+           size="50" maxlength="5"> 
+  <br>
+	<br>
+     
+
+ <b>Any Competition winner:- </b>
+<br>
+<input type="checkbox" name="SecTION" value="1" >District Level Champion<br>    
+<input type="checkbox" name="SecTION" value="2" checked >State Level Champion<br> 
+<input type="checkbox" name="SecTION" value="3" >National Level Champion<br> 
+<br>
+<br>
+
+ <b>Gender:- </b>
+<br>
+<input type="radio" name="gender" value="1" >Male<br> 
+<input type="radio" name="gender" value="2" >Female<br>
+<br>
+	<br>
+	
+<b>PLease UPload your Photo</b>
+<input type="file" >	
+<br>
+<br>
+
+<b>PLease UPload your Certificate image</b>	   
+<input type="file" accept="image/*" value="YourLOCation">
+	<br>
+	<br>
+	
+	<b>Choose Your Club </b>
+    <select id="clubs" name="clubs">
+	 <option value="a">Real Madrid Spain   </option>
+	 <option value="b">Chelsea  england </option>
+      <option value="c">Chelsea  england </option>
+      <option value="d">Juventus  Italy</option>
+      <option value="e">Barcelona Spain</option>
+    </select>
+	<br>
+	<br>
+     <b>Your Country </b>
+    <select id="country" name="country">
+      <option value="australia">INDIA</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+  <br>
+<br>
+ <b>Patment Mode:- </b>
+<br>
+<input type="radio" name="ge" value="1" >Paytm<br> 
+<input type="radio" name="g" value="2" >Debit CARD<br>
+  
+  
+  <br>
+    <input type="submit" value="Submit">
+
+	<a href="AAhome001.html"> RETURN to Home</a>	
+
+ </form>
+</div>
+
+</body>
+</html>

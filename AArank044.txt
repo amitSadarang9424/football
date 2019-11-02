@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body
+{
+
+width:50%;
+margin-left:250px;
+
+background-image: url("CSal.jpg");
+
+}
+
+
+
+table {
+    border-collapse: collapse; /* remove the line gap between the box of table*/
+    width: 100%;
+}
+
+th{
+
+text-align:left;
+    padding:10px;
+	background-color: #4CAF50;
+	font-size:150%;
+    color: white;
+}
+
+td {
+opacity:0.85;
+background-color:white;
+    color:red;
+	font-size:150%;
+    text-align: left;
+    padding: 8px;
+}
+
+
+/*change color for each of the 2nd line */
+/*
+tr:nth-child(even)
+{background-color: #f2f2f2;}
+*/
+
+a 
+
+{
+opacity:0.95;
+
+background-color:red;
+   text-decoration:none;
+
+  border-style: double;
+  border-width: thick;
+
+padding:8px;
+padding-left:10px;
+padding-right:10px;
+
+  font-size:100%;
+  color:white;
+}
+
+
+.last
+{
+opacity:0.9;
+
+background-image: url("SDisb.jpg");
+color:white;
+
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1 style="color:red;">Official Rank In Soccer </h1>
+
+
+<div class="player">
+<h2 style="color:blue;">Official Rank of Player </h2>
+<table>
+  <tr>
+    <th>Rank</th>
+    <th>NAME of Player</th>
+    <th>Club / team</th>
+  </tr>
+ <tr>
+ <td>1 </td>
+ <td> Lionel Messi </td>
+<td>Club: Barcelona</td>
+</tr>
+  
+  <tr>
+    <td>2</td>
+	<td>Cristiano Ronaldo </td>
+	<td>Club: Real Madrid</td>
+	
+  </tr>
+  
+  <tr>
+    <td>3</td>
+    <td>Luis Suárez</td>
+    <td>Club: 
+Barcelona</td>
+  </tr>
+  
+  <tr>
+    <td>4</td>
+    <td>Víctor Valdés</td>
+    <td>Club: 
+Manchester United</td>
+</tr>
+ <tr>
+    <td>5</td>
+    <td>R. lewandoswki</td>
+    <td>Club: Bayern München</td>
+  </tr>
+  <tr>
+  
+  
+</table>
+</div>
+
+ <br>
+  <br>
+
+   <br>
+  <br>
+<div class="clubsrank">
+
+<h1 style="color:blue;">Official Rank of Clubs </h1>
+<table>
+  <tr>
+    <th>RANK </th>
+    <th>NAME of CLUBS</th>
+    <th>VOTING</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Real Madrid     Spain </td>
+    <td>100K</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Barcelona       Spain</td>
+    <td>150K</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Bayern München  Germany </td>
+    <td>300K</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Juventus  Italy</td>
+    <td>250K</td>
+</tr>
+ <tr>
+    <td>5</td>
+    <td>Chelsea  england </td>
+    <td>150K</td>
+  </tr>
+  <tr>
+
+ 
+</table>
+</div>
+
+
+<div class="last">
+<br>
+<h2 >Want to DO REGISTERATION of These CLUBS...<h2>
+<h2 >Click here quickly....<a href="AAform002.html">REGISTERATION</a>...<h2>
+	
+<br>
+</div>
+
+</body>
+</html>
